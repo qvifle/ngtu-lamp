@@ -13,7 +13,6 @@ const changeImagename = (value, pos) => {
   strArray[pos] = value;
   imageName = strArray.join("");
   image.src = getSrcString(imageName)
-  console.log(imageName)
 }
 
 image.src = getSrcString(imageName)
