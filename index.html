@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./style.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <main>
+    <h1 class="heading">Выбирите конфигурацию лампы</h1>
+    <div class="wrapper">
+      <div class="features">
+        <div class="feature">
+          <h2 class="title">Верх</h2>
+          <div class="container">
+            <div class="item">
+              <input type="radio" name="radio-1" class="radio radio-primary" checked value="0" />
+              <img src="./assets/п_1.jpg" alt="">
+            </div>
+            <div class="item">
+              <input type="radio" name="radio-1" class="radio radio-primary" value="1" />
+              <img src="./assets/п_2.jpg" alt="">
+            </div>
+            <div class="item">
+              <input type="radio" name="radio-1" class="radio radio-primary" value="2" />
+              <img src="./assets/п_3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="feature">
+          <h2 class="title">Держатель</h2>
+          <div class="container">
+            <div class="item">
+              <input type="radio" name="radio-2" class="radio radio-primary" checked value="3" />
+              <img src="./assets/д_1.jpg" alt="">
+            </div>
+            <div class="item">
+              <input type="radio" name="radio-2" class="radio radio-primary" />
+              <img src="./assets/д_2.jpg" alt="">
+            </div>
+            <div class="item">
+              <input type="radio" name="radio-2" class="radio radio-primary" />
+              <img src="./assets/д_3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="feature">
+          <h2 class="title">Основание</h2>
+          <div class="container">
+            <div class="item">
+              <input type="radio" name="radio-3" class="radio radio-primary" checked />
+              <img src="./assets/о_1.jpg" alt="">
+            </div>
+            <div class="item">
+              <input type="radio" name="radio-3" class="radio radio-primary" />
+              <img src="./assets/о_2.jpg" alt="">
+            </div>
+            <div class="item">
+              <input type="radio" name="radio-3" class="radio radio-primary" />
+              <img src="./assets/о_3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="model" id="model"></div>
+    </div>
+  </main>
+  <script src="./index.js"></script>
+</body>
+
+</html>
