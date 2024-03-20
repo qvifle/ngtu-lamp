@@ -5,7 +5,7 @@ let imageName = "111"
 
 
 const getSrcString = (name) => {
-  return `../assets/${name}.jfif`
+  return `./assets/${name}.jfif`
 }
 
 const changeImagename = (value, pos) => {
