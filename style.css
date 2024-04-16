@@ -7,6 +7,26 @@ main {
   justify-content: center;
 }
 
+body {
+  max-width: 100vw;
+}
+
+header {
+  padding: .5rem 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 500;
+}
+
 .heading {
   font-size: 48px;
   font-weight: bold;
@@ -90,3 +110,14 @@ aspect-ratio: 1;
 
 }
 
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 0 16px;
+}
+
+.drop-shadow-xl-top {
+  filter: drop-shadow(0 -20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 -8px 5px rgb(0 0 0 / 0.08));
+
+}

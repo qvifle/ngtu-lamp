@@ -2,7 +2,18 @@ let model = document.getElementById("model")
 let radios = document.querySelectorAll('input[type="radio"]')
 let image = document.createElement("img")
 let imageName = "111"
+const header = document.getElementById("header")
 
+document.addEventListener("scroll", () => {
+  if (scrollY === 0) {
+    header.classList.add("bg-transparent")
+    header.classList.remove("bg-gray-900")
+  }
+  else {
+    header.classList.add("bg-gray-900")
+    header.classList.remove("bg-transparent")
+  }
+})
 
 const getSrcString = (name) => {
   return `./assets/${name}.jfif`
